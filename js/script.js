@@ -1,3 +1,4 @@
+//usando API ViaCEP https://viacep.com.br
 async function buscaEndereco (cep) {
     try {
         let consultaCEP = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
