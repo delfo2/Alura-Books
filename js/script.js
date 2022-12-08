@@ -4,7 +4,7 @@ const bairro = document.querySelector('#bairro');
 const estado = document.querySelector('#estado');
 const mensagemErro = document.querySelector('#mensagem__erro');
 
-//usando API ViaCEP https://viacep.com.br
+//usando API ViaCEP
 async function buscaEndereco (cep) {
     mensagemErro.innerHTML = '';
     try {
